@@ -9,6 +9,7 @@ html, body {
 
 .jumbotron {
   height: 800px;
+  background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg?_gl=1*1bhcpya*_ga*OTMxMDIzMDg4My4xNjU3MDI2NjUz*_ga_3LRZM6TM9L*MTY2MDAwNzUyNi44NC4wLjE2NjAwMDc1MjYuNjA.");
 }
 
 .header {
@@ -18,6 +19,9 @@ html, body {
 .nav {
   margin: 0;
   padding: 20px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav li {
@@ -25,6 +29,7 @@ html, body {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
+  
 }
 
 .main {
@@ -101,4 +106,18 @@ html, body {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 15px 50px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px;      
 }
